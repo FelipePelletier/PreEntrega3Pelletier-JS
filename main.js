@@ -193,3 +193,15 @@ alertTablaDP.addEventListener("click", () => {
     timer: 1500,
   });
 });
+
+const alertAPI = document.querySelector("#cargarAlumnosAPI");
+
+alertAPI.addEventListener("click", () => {
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: "API alumnos cargados!",
+    showConfirmButton: false,
+    timer: 1500,
+  });
+});
